@@ -4,7 +4,7 @@ import Section from "./Section";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col w-[60%] gap-10 items-center">
+    <div className="flex flex-col  gap-10 items-center">
       <Header />
       <Section />
       <Footer />
