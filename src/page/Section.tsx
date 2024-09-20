@@ -6,14 +6,14 @@ export default function Section() {
     {
       company: "Symph",
       logo: "https://cdn.prod.website-files.com/632954a961fe6a195cb51903/632957958a18b28555656437_symph%20logo%402x.svg",
-      role: "Front-End Developer",
+      role: "Front-End Developer Intern",
       technologies: "React, Typescript, Styled-components",
       duration: "April 2023 - July 2023",
     },
     {
       company: "Lanex Corporation",
       logo: "https://lanexcorp.com/wp-content/uploads/2024/06/lanexcorp-logo.svg",
-      role: "Front-End Developer",
+      role: "Front-End Developer Intern",
       technologies: "Nuxt, Vue, APIs, dockers",
       duration: "Feb 2024 - June 2024",
     },
