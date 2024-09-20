@@ -5,7 +5,6 @@ export default function Footer() {
     <div className="sticky bottom-1.5 grid grid-cols-3 gap-2 bg-[#111827] p-4 shadow-md rounded-3xl divide-x divide-[#9ca3af] pointer-auto-event">
       <a
         href="#about-me"
-        target="_blank"
         className="text-[#9ca3af] flex justify-center items-center px-2"
       >
         <FaHome size={25} />
