@@ -2,7 +2,7 @@ import profile from "../assets/profile.jpg";
 
 export default function Header() {
   return (
-    <div>
+    <div id="about-me">
       <div className="xs:hidden lg:flex justify-between items-center max-w-2xl">
         <div>
           <h1 className="text-4xl font-bold text-[#f8fafc]">Hi, I'm Cal 👋🏾</h1>

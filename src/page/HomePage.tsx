@@ -4,9 +4,12 @@ import Section from "./Section";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col  gap-10 items-center">
-      <Header />
-      <Section />
+    <div className="flex flex-col items-center">
+      <main className="flex-grow">
+        {" "}
+        <Header />
+        <Section />
+      </main>
       <Footer />
     </div>
   );
