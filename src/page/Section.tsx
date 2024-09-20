@@ -172,7 +172,7 @@ export default function Section() {
             {projects.map((project) => (
               <div
                 key={project.name}
-                className="bg-[#111827] rounded-md p-4 shadow-md"
+                className="flex flex-col justify-between bg-[#111827] rounded-md p-4 shadow-md"
               >
                 <h2 className="text-xl font-bold mb-4 text-[#9ca3af]">
                   {project.name}
