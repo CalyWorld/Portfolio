@@ -156,7 +156,7 @@ export default function Section() {
       {/* Content */}
       <div className="flex flex-col gap-16 max-w-2xl">
         {/* About Me */}
-        <div className="about-me max-w-full sm:max-w-2xl lg:max-w-4xl mx-auto">
+        <div className="about-me max-w-full sm:max-w-2xl lg:max-w-4xl mx-auto mt-10">
           <h2 className="text-2xl font-bold mb-4 text-[#f8fafc] text-center lg:text-left">
             About Me
           </h2>
