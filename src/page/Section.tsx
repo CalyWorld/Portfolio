@@ -101,7 +101,7 @@ export default function Section() {
           element: (
             <a
               className="text-[#9ca3af]"
-              href="https://chatgpt-clone-u74b4kgv7-calyworld.vercel.app/"
+              href="https://chatgpt-clone-ts.vercel.app/"
               target="_blank"
             >
               <BsBrowserChrome size={25} />
