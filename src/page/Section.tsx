@@ -2,6 +2,11 @@ import { FaGithub } from "react-icons/fa";
 import { BsBrowserChrome } from "react-icons/bs";
 
 export default function Section() {
+  const introduction = {
+    message:
+      "I'm a skilled web developer with experience in building dynamic and responsive applications. Passionate about coding, learning, and problem-solving, I have a solid foundation in both front-end and back-end development. I'm constantly exploring new technologies to create impactful projects.",
+  };
+
   const experiences = [
     {
       company: "Symph",
@@ -161,11 +166,7 @@ export default function Section() {
             About Me
           </h2>
           <p className="text-[#9ca3af] text-center lg:text-left">
-            I'm a skilled web developer with experience in building dynamic and
-            responsive applications. Passionate about coding, learning, and
-            problem-solving, I have a solid foundation in both front-end and
-            back-end development. I'm constantly exploring new technologies to
-            create impactful projects.
+            {introduction.message}
           </p>
         </div>
 

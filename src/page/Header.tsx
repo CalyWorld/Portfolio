@@ -1,14 +1,21 @@
 import profile from "../assets/profile.jpg";
 
 export default function Header() {
+  const introduction = {
+    title: "Hi, I'm Cal 👋🏾",
+    message:
+      "Full Stack Developer with 2 years experience working on side projects",
+  };
+
   return (
     <div id="about-me">
       <div className="xs:hidden lg:flex justify-between items-center max-w-2xl">
         <div>
-          <h1 className="text-4xl font-bold text-[#f8fafc]">Hi, I'm Cal 👋🏾</h1>
+          <h1 className="text-4xl font-bold text-[#f8fafc]">
+            {introduction.title}
+          </h1>
           <h2 className="text-xl font-medium mt-2 text-[#9ca3af]">
-            Full Stack Developer with 2 years experience working on side
-            projects
+            {introduction.message}
           </h2>
         </div>
         <div>
@@ -29,11 +36,10 @@ export default function Header() {
         </div>
         <div>
           <h1 className="text-4xl font-bold text-[#f8fafc] text-center">
-            Hi, I'm Cal 👋🏾
+            {introduction.title}
           </h1>
           <h2 className="text-xl font-medium mt-2 text-[#9ca3af] text-center">
-            Full Stack Developer with 2 years experience working on side
-            projects
+            {introduction.message}
           </h2>
         </div>
       </div>
