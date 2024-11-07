@@ -4,7 +4,7 @@ import { BsBrowserChrome } from "react-icons/bs";
 export default function Section() {
   const introduction = {
     message:
-      "I'm a skilled web developer with experience in building dynamic and responsive applications. Passionate about coding, learning, and problem-solving, I have a solid foundation in both front-end and back-end development. I'm constantly exploring new technologies to create impactful projects.",
+      "I'm a competent web developer with experience in building dynamic and responsive web applications. I'm passionate about coding, learning, and problem-solving, I have a solid foundation in both front-end and back-end development. I'm constantly exploring new technologies to create impactful projects.",
   };
 
   const experiences = [
@@ -26,7 +26,7 @@ export default function Section() {
 
   const education = {
     school: "University of San Carlos",
-    logo: "https://upload.wikimedia.org/wikipedia/en/3/39/University_of_San_Carlos_logo.png",
+    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/USC_university_seal.svg/1200px-USC_university_seal.svg.png",
     degree: "Bachelor's Computer Engineering",
     graduationYear: "August 2018 - June 2024",
   };
@@ -39,7 +39,8 @@ export default function Section() {
     "Express",
     "MongoDB",
     "Tailwind",
-    "Python(Begineer)",
+    "Python(Beginner)",
+    "Csharp(Beginner)",
   ];
 
   const projects = [
